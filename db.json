@@ -1,0 +1,31 @@
+{
+  "rooms": [
+    {
+      "name": "Woonkamer",
+      "image": "images/woonkamer.jpg",
+      "devices": [
+        { "id": 1, "name": "Slimme TV", "status": "Active", "type": "tv", "image": "images/tv.jpg" },
+        { "id": 2, "name": "Lampen", "status": "Active", "type": "lamp", "image": "images/lamp.jpg" },
+        { "id": 3, "name": "Verwarming", "status": "Inactive", "type": "thermostat", "image": "images/thermostat.jpg" }
+      ]
+    },
+    {
+      "name": "Keuken",
+      "image": "images/keuken.jpg",
+      "devices": [
+        { "id": 8, "name": "slimme koelkast", "status": "Active", "type": "fridge", "image": "images/smart_fridge.jpg" },
+        { "id": 9, "name": "slimme oven", "status": "Inactive", "type": "oven", "image": "images/smart_oven.jpg" },
+        { "id": 10, "name": "bewegingssensor", "status": "Active", "type": "sensor", "image": "images/smart_sensor.jpg" }
+      ]
+    },
+    {
+      "name": "Slaapkamer",
+      "image": "images/slaapkamer.jpg",
+      "devices": [
+        { "id": 6, "name": "Bewegingssensor", "status": "Active", "type": "sensor", "image": "images/smart_sensor.jpg" },
+        { "id": 7, "name": "Slimme verlichting", "status": "Active", "type": "lamp", "image": "images/lamp.jpg" }
+      ]
+    }
+  ]
+}
+
