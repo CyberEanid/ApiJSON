@@ -6,16 +6,18 @@
       "devices": [
         { "id": 1, "name": "Slimme TV", "status": "Active", "type": "tv", "image": "images/tv.jpg" },
         { "id": 2, "name": "Lampen", "status": "Active", "type": "lamp", "image": "images/lamp.jpg" },
-        { "id": 3, "name": "Verwarming", "status": "Inactive", "type": "thermostat", "image": "images/thermostat.jpg" }
+        { "id": 3, "name": "Verwarming", "status": "Inactive", "type": "thermostat", "image": "images/thermostat.jpg" },
+        { "id": 4, "name": "Slimme Luidspreker", "status": "Active", "type": "speaker", "image": "images/smart_speaker.jpg" }
       ]
     },
     {
       "name": "Keuken",
       "image": "images/keuken.jpg",
       "devices": [
-        { "id": 8, "name": "slimme koelkast", "status": "Active", "type": "fridge", "image": "images/smart_fridge.jpg" },
-        { "id": 9, "name": "slimme oven", "status": "Inactive", "type": "oven", "image": "images/smart_oven.jpg" },
-        { "id": 10, "name": "bewegingssensor", "status": "Active", "type": "sensor", "image": "images/smart_sensor.jpg" }
+        { "id": 8, "name": "Slimme Koelkast", "status": "Active", "type": "fridge", "image": "images/smart_fridge.jpg" },
+        { "id": 9, "name": "Slimme Oven", "status": "Inactive", "type": "oven", "image": "images/smart_oven.jpg" },
+        { "id": 10, "name": "Bewegingssensor", "status": "Active", "type": "sensor", "image": "images/smart_sensor.jpg" },
+        { "id": 11, "name": "Slimme Waterkoker", "status": "Active", "type": "kettle", "image": "images/smart_kettle.jpg" }
       ]
     },
     {
@@ -23,7 +25,36 @@
       "image": "images/slaapkamer.jpg",
       "devices": [
         { "id": 6, "name": "Bewegingssensor", "status": "Active", "type": "sensor", "image": "images/smart_sensor.jpg" },
-        { "id": 7, "name": "Slimme verlichting", "status": "Active", "type": "lamp", "image": "images/lamp.jpg" }
+        { "id": 7, "name": "Slimme Verlichting", "status": "Active", "type": "lamp", "image": "images/lamp.jpg" },
+        { "id": 12, "name": "Slimme Gordijnen", "status": "Active", "type": "curtain", "image": "images/smart_curtains.jpg" },
+        { "id": 13, "name": "Slimme Weerstation", "status": "Active", "type": "weather_station", "image": "images/weather_station.jpg" }
+      ]
+    },
+    {
+      "name": "Badkamer",
+      "image": "images/badkamer.jpg",
+      "devices": [
+        { "id": 14, "name": "Slimme Spiegel", "status": "Active", "type": "mirror", "image": "images/smart_mirror.jpg" },
+        { "id": 15, "name": "Slimme Douche", "status": "Inactive", "type": "shower", "image": "images/smart_shower.jpg" },
+        { "id": 16, "name": "Slimme Weegschaal", "status": "Active", "type": "scale", "image": "images/smart_scale.jpg" }
+      ]
+    },
+    {
+      "name": "Garage",
+      "image": "images/garage.jpg",
+      "devices": [
+        { "id": 17, "name": "Slimme Deuropener", "status": "Active", "type": "door_opener", "image": "images/smart_door_opener.jpg" },
+        { "id": 18, "name": "Beveiligingscamera", "status": "Active", "type": "camera", "image": "images/security_camera.jpg" },
+        { "id": 19, "name": "Slimme Stopcontacten", "status": "Active", "type": "socket", "image": "images/smart_socket.jpg" }
+      ]
+    },
+    {
+      "name": "Tuin",
+      "image": "images/tuin.jpg",
+      "devices": [
+        { "id": 20, "name": "Slimme Sprinkler", "status": "Active", "type": "sprinkler", "image": "images/smart_sprinkler.jpg" },
+        { "id": 21, "name": "Buitenlampen", "status": "Active", "type": "outdoor_lamp", "image": "images/outdoor_lamp.jpg" },
+        { "id": 22, "name": "Weerstation", "status": "Active", "type": "weather_station", "image": "images/weather_station.jpg" }
       ]
     }
   ]
